@@ -1,0 +1,409 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="bipartite" type="long" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.3</creator>
+      <lastmodified>07/05/2020</lastmodified>
+    </meta>
+    <nodes>
+      <node id="Conduitry" label="Conduitry">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="silentworks" label="silentworks">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="PatrickG" label="PatrickG">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="pushkine" label="pushkine">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="ryanatkn" label="ryanatkn">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="kevmodrome" label="kevmodrome">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="arxpoetica" label="arxpoetica">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="tanhauhau" label="tanhauhau">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="antony" label="antony">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="mindrones" label="mindrones">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="jesseskinner" label="jesseskinner">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="ThePrimeagen" label="ThePrimeagen">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="olivierchatry" label="olivierchatry">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Rich-Harris" label="Rich-Harris">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Prinzhorn" label="Prinzhorn">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="dekdevy" label="dekdevy">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="schliflo" label="schliflo">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="dkondrad" label="dkondrad">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="arlac77" label="arlac77">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="MaxMilton" label="MaxMilton">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="larbear" label="larbear">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="pngwn" label="pngwn">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="kmmbvnr" label="kmmbvnr">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="timonweb" label="timonweb">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="TehShrike" label="TehShrike">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="stalkerg" label="stalkerg">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="watsy0007" label="watsy0007">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Crisfole" label="Crisfole">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="rixo" label="rixo">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="tomcon" label="tomcon">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="mrkishi" label="mrkishi">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="RedHatter" label="RedHatter">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="halfnelson" label="halfnelson">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="jakobrosenberg" label="jakobrosenberg">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="QuantumInformation" label="QuantumInformation">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="mustafa0x" label="mustafa0x">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="F1LT3R" label="F1LT3R">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="spacedentist" label="spacedentist">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="snoopysecurity" label="snoopysecurity">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="tivac" label="tivac">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="hidde" label="hidde">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="frederikhors" label="frederikhors">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="TimAstier" label="TimAstier">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Swatinem" label="Swatinem">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="codecov-io" label="codecov-io">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="dasZGFz" label="dasZGFz">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="msfragala" label="msfragala">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="dhonx" label="dhonx">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="erzr" label="erzr">
+        <attvalues>
+          <attvalue for="0" value="user" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Conduitry" target="msfragala" weight="2.0715365068591405" />
+      <edge id="1" source="Conduitry" target="PatrickG" weight="1.107986487434732" />
+      <edge id="2" source="Conduitry" target="larbear" weight="1.7479881010998373" />
+      <edge id="3" source="Conduitry" target="silentworks" weight="1.1682897791964042" />
+      <edge id="4" source="Conduitry" target="RedHatter" weight="7.70892422227808" />
+      <edge id="5" source="Conduitry" target="Rich-Harris" weight="9.658755461384931" />
+      <edge id="6" source="Conduitry" target="codecov-io" weight="5.207285261389564" />
+      <edge id="7" source="Conduitry" target="pushkine" weight="2.03512577997718" />
+      <edge id="8" source="Conduitry" target="ThePrimeagen" weight="1.8230698833947794" />
+      <edge id="9" source="Conduitry" target="olivierchatry" weight="3.190372295940864" />
+      <edge id="10" source="Conduitry" target="snoopysecurity" weight="1.1233785352761327" />
+      <edge id="11" source="Conduitry" target="Swatinem" weight="2.4305795075122614" />
+      <edge id="12" source="Conduitry" target="arlac77" weight="0.8820221107878966" />
+      <edge id="13" source="Conduitry" target="antony" weight="11.537941662815067" />
+      <edge id="14" source="Conduitry" target="MaxMilton" weight="0.874854997825272" />
+      <edge id="15" source="Conduitry" target="tivac" weight="0.7455626549343897" />
+      <edge id="16" source="Conduitry" target="pngwn" weight="2.287368039417145" />
+      <edge id="17" source="Conduitry" target="mindrones" weight="2.7862259596937506" />
+      <edge id="18" source="Conduitry" target="mustafa0x" weight="0.7455626549343897" />
+      <edge id="19" source="Conduitry" target="Crisfole" weight="0.8046384147858143" />
+      <edge id="20" source="Conduitry" target="dkondrad" weight="8.083779128619112" />
+      <edge id="21" source="Conduitry" target="jesseskinner" weight="0.9268242666544507" />
+      <edge id="22" source="Conduitry" target="spacedentist" weight="3.7478123681914237" />
+      <edge id="23" source="Conduitry" target="TimAstier" weight="0.7171645240620245" />
+      <edge id="24" source="Conduitry" target="mrkishi" weight="3.9848117969639034" />
+      <edge id="25" source="Conduitry" target="F1LT3R" weight="2.998249894553139" />
+      <edge id="26" source="Conduitry" target="stalkerg" weight="4.406917027823842" />
+      <edge id="27" source="Conduitry" target="dasZGFz" weight="2.7778051514425846" />
+      <edge id="28" source="Conduitry" target="tomcon" weight="3.5863306172675133" />
+      <edge id="29" source="Conduitry" target="rixo" weight="3.234602946188941" />
+      <edge id="30" source="Conduitry" target="tanhauhau" weight="9.911330994645635" />
+      <edge id="31" source="ryanatkn" target="arxpoetica" weight="1.0416047468430407" />
+      <edge id="32" source="ryanatkn" target="kevmodrome" weight="1.0416047468430407" />
+      <edge id="33" source="kevmodrome" target="arxpoetica" weight="1.0416047468430407" />
+      <edge id="34" source="tanhauhau" target="F1LT3R" weight="0.7495624736382848" />
+      <edge id="35" source="tanhauhau" target="dkondrad" weight="0.8894610799315766" />
+      <edge id="36" source="tanhauhau" target="antony" weight="0.7495624736382848" />
+      <edge id="37" source="tanhauhau" target="RedHatter" weight="1.8739061840957119" />
+      <edge id="38" source="tanhauhau" target="codecov-io" weight="1.687619768924241" />
+      <edge id="39" source="tanhauhau" target="spacedentist" weight="1.4991249472765695" />
+      <edge id="40" source="tanhauhau" target="mindrones" weight="2.7862259596937506" />
+      <edge id="41" source="antony" target="dkondrad" weight="1.6710601759635126" />
+      <edge id="42" source="antony" target="Swatinem" weight="0.6944512878606461" />
+      <edge id="43" source="antony" target="F1LT3R" weight="0.7495624736382848" />
+      <edge id="44" source="antony" target="RedHatter" weight="1.8739061840957119" />
+      <edge id="45" source="antony" target="dasZGFz" weight="1.041676931790969" />
+      <edge id="46" source="antony" target="Rich-Harris" weight="0.6845571268873256" />
+      <edge id="47" source="antony" target="codecov-io" weight="0.6845571268873256" />
+      <edge id="48" source="antony" target="spacedentist" weight="1.4991249472765695" />
+      <edge id="49" source="antony" target="rixo" weight="0.6944512878606461" />
+      <edge id="50" source="ThePrimeagen" target="olivierchatry" weight="2.2788373542434743" />
+      <edge id="51" source="Rich-Harris" target="hidde" weight="1.483071006615309" />
+      <edge id="52" source="Rich-Harris" target="dkondrad" weight="1.095978232690938" />
+      <edge id="53" source="Rich-Harris" target="codecov-io" weight="16.43669415595138" />
+      <edge id="54" source="Rich-Harris" target="QuantumInformation" weight="0.7597250112446632" />
+      <edge id="55" source="Rich-Harris" target="halfnelson" weight="1.169012605472643" />
+      <edge id="56" source="Rich-Harris" target="TehShrike" weight="0.7793417369817621" />
+      <edge id="57" source="Rich-Harris" target="snoopysecurity" weight="1.1233785352761327" />
+      <edge id="58" source="Rich-Harris" target="jakobrosenberg" weight="1.169012605472643" />
+      <edge id="59" source="Rich-Harris" target="stalkerg" weight="1.1167737406309584" />
+      <edge id="60" source="Rich-Harris" target="Prinzhorn" weight="0.9097360412787909" />
+      <edge id="61" source="Rich-Harris" target="tivac" weight="0.7455626549343897" />
+      <edge id="62" source="Rich-Harris" target="frederikhors" weight="0.7306462952802768" />
+      <edge id="63" source="Rich-Harris" target="pngwn" weight="3.7231283471322025" />
+      <edge id="64" source="Rich-Harris" target="dhonx" weight="1.3500042417457598" />
+      <edge id="65" source="Rich-Harris" target="mustafa0x" weight="1.499039039556843" />
+      <edge id="66" source="Rich-Harris" target="rixo" weight="2.7276960794361673" />
+      <edge id="67" source="Rich-Harris" target="Crisfole" weight="0.8046384147858143" />
+      <edge id="68" source="dekdevy" target="schliflo" weight="0.9090262379351538" />
+      <edge id="69" source="dkondrad" target="larbear" weight="0.8739940505499186" />
+      <edge id="70" source="dkondrad" target="pngwn" weight="0.8517481553954271" />
+      <edge id="71" source="pngwn" target="codecov-io" weight="0.7039800287318887" />
+      <edge id="72" source="kmmbvnr" target="timonweb" weight="1.6599278389877203" />
+      <edge id="73" source="kmmbvnr" target="TehShrike" weight="1.6599278389877203" />
+      <edge id="74" source="timonweb" target="TehShrike" weight="0.8299639194938602" />
+      <edge id="75" source="TehShrike" target="halfnelson" weight="1.169012605472643" />
+      <edge id="76" source="TehShrike" target="rixo" weight="2.7276960794361673" />
+      <edge id="77" source="TehShrike" target="jakobrosenberg" weight="1.169012605472643" />
+      <edge id="78" source="stalkerg" target="RedHatter" weight="0.7969623593927807" />
+      <edge id="79" source="stalkerg" target="watsy0007" weight="0.8209119004918181" />
+      <edge id="80" source="stalkerg" target="mrkishi" weight="1.1954435390891711" />
+      <edge id="81" source="stalkerg" target="tomcon" weight="0.7969623593927807" />
+      <edge id="82" source="rixo" target="Swatinem" weight="0.6944512878606461" />
+      <edge id="83" source="rixo" target="dasZGFz" weight="1.041676931790969" />
+      <edge id="84" source="rixo" target="halfnelson" weight="3.1173669479270485" />
+      <edge id="85" source="rixo" target="jakobrosenberg" weight="3.1173669479270485" />
+      <edge id="86" source="tomcon" target="RedHatter" weight="0.7969623593927807" />
+      <edge id="87" source="tomcon" target="mrkishi" weight="1.1954435390891711" />
+      <edge id="88" source="mrkishi" target="RedHatter" weight="1.1954435390891711" />
+      <edge id="89" source="RedHatter" target="F1LT3R" weight="1.8739061840957119" />
+      <edge id="90" source="RedHatter" target="spacedentist" weight="2.6234686577339965" />
+      <edge id="91" source="halfnelson" target="jakobrosenberg" weight="1.5586834739635242" />
+      <edge id="92" source="mustafa0x" target="tivac" weight="0.7455626549343897" />
+      <edge id="93" source="F1LT3R" target="spacedentist" weight="1.4991249472765695" />
+      <edge id="94" source="Swatinem" target="dasZGFz" weight="1.041676931790969" />
+      <edge id="95" source="codecov-io" target="msfragala" weight="1.0357682534295702" />
+      <edge id="96" source="codecov-io" target="erzr" weight="0.6689383312298481" />
+      <edge id="97" source="codecov-io" target="dhonx" weight="1.3500042417457598" />
+    </edges>
+  </graph>
+</gexf>

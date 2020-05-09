@@ -41,6 +41,7 @@ python grr_cli.py --repo=mrdoob/three.js --opr=19266 --simthres=0.3 --prlimit=10
 ### Notebook
  **grr.ipynb**:
  It is a one block script in notebook.
+ 
   **notebook/grr_notebook.ipynb**:
  It is a scipt with several block that walk you through the process of recommendation.Also, It provides graph visualization, plots, and results in each steps.
 

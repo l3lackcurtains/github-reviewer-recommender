@@ -1,10 +1,6 @@
 import argparse
-import getopt
 import itertools
 import re
-import string
-import sys
-from pprint import pprint
 
 import gensim
 import networkx as nx
@@ -100,6 +96,7 @@ weights of projected graph
 def custom_weight(G, u, v, weight='weight'):
     weight_val = 0
     for nbr in set(G[u]) & set(G[v]):
+        # Add current weights and multiply by PR similarity score
         weight_val += (G[u][nbr]['weight'] + G[v][nbr]
                        ['weight'])*G.nodes[nbr]['similarity']
     return weight_val
@@ -148,7 +145,7 @@ def get_reviewer_recommendation(repo_name, access_token, open_pr_id=None, simila
             if open_pr_id == pr.number:
                 open_pr = pr
 
-    if open_pr_id != None and open_pr != open_pr.number:
+    if open_pr_id != None and open_pr_id != open_pr.number:
         raise Exception("Open PR not found. Change Open PR ID.")
 
     print("[✔️] Using PR ID #", open_pr.number)
@@ -218,14 +215,17 @@ def get_reviewer_recommendation(repo_name, access_token, open_pr_id=None, simila
 
                 # If there is occurence of multiple comment, then add the occurence to the edge weight
                 if graphz.has_edge(reviewer, pr_number):
+                    # Increment weight of edge
                     new_weight = graphz.get_edge_data(
                         reviewer, pr_number)['weight'] + 1
                     graphz[reviewer][pr_number]['weight'] = new_weight
                 else:
+                    # Add edge with weight 1
                     graphz.add_edge(reviewer, pr_number,
                                     weight=1, type='reviews')
 
     print("[✔️] Built a bipartite graph.")
+
     # Generate document corpus for closed pull requests
     closed_prs_corpus = {}
     for pr in closed_prs_meta:
@@ -235,7 +235,7 @@ def get_reviewer_recommendation(repo_name, access_token, open_pr_id=None, simila
         for comment in pr['comments']:
             doc += comment.body
         # Remove the code, mentions and URLS
-        doc = re.sub(r'\```[^```]*\```', '', doc)
+        doc = re.sub('`.*`', '', doc)
         doc = re.sub(r"(?:\@|#|https?\://)\S+", "", doc)
 
         # insert document into corpus with index of corpus id
@@ -249,7 +249,7 @@ def get_reviewer_recommendation(repo_name, access_token, open_pr_id=None, simila
         open_pr_corpus += comment.body
 
     # Remove the code, mentions and URLS
-    open_pr_corpus = re.sub(r"\```[^```]*\```", "", open_pr_corpus)
+    open_pr_corpus = re.sub('`.*`', '', open_pr_corpus)
     open_pr_corpus = re.sub(r"(?:\@|#|https?\://)\S+", "", open_pr_corpus)
 
     print("[✔️] Open PR corpus generated.")
@@ -279,14 +279,15 @@ def get_reviewer_recommendation(repo_name, access_token, open_pr_id=None, simila
     # Sort the similarity matrix in reverse order
     similarity_matrix = sorted(similarity_matrix, reverse=True)
 
-    # Get the top similarity matrix by PR and filter with threshold
+    # Get all similarity matrix filtered with threshold
     top_similarity_matrix = {}
     for i, pr in enumerate(closed_prs_meta):
         top_similarity_matrix[pr['id']] = similarity_matrix[i]
 
     # Get top similarity matrix using similarity threshold value
-    top_similarity_matrix = dict(itertools.islice(top_similarity_matrix.items(), int(
-        len(top_similarity_matrix)*similarity_threshold)))
+    top_sim_length = int(len(top_similarity_matrix)*similarity_threshold)
+    top_similarity_matrix = dict(itertools.islice(
+        top_similarity_matrix.items(), top_sim_length))
 
     print("[✔️] Selected top ", similarity_threshold *
           100, "% PRs using similarity threshold.")
@@ -328,8 +329,8 @@ def get_reviewer_recommendation(repo_name, access_token, open_pr_id=None, simila
     print("[✔️] Subgraph projected into reviewer's graph.")
 
     # Run page rank algorithm in projected graph
-    pagerank = nx.pagerank(projected_graphz, alpha=0.85, personalization=None, max_iter=100, tol=1e-06,
-                           nstart=None, weight='weight', dangling=None)
+    pagerank = nx.pagerank(projected_graphz, alpha=0.85, personalization=None,
+                           max_iter=100, tol=1e-06, nstart=None, weight='weight', dangling=None)
 
     print("[✔️] Page rank calculated.")
     # Sort the page rank result by score
@@ -352,17 +353,26 @@ def get_reviewer_recommendation(repo_name, access_token, open_pr_id=None, simila
 
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser(description='Command documendation')
+    parser = argparse.ArgumentParser(description='GRR documendation')
+
+    # Add repo argument
     parser.add_argument("--repo", action='store', type=str,
                         default="sveltejs/svelte", help="Name of the repository")
+    # Add opr argument
     parser.add_argument("--opr", action="store", type=int,
                         help="Open PR ID")
+
+    # Add simthres argument
     parser.add_argument("--simthres", action="store", type=float, default=0.2,
                         help="Threshold value for selecting top similar PRs")
+
+    # Add prlimit argument
     parser.add_argument("--prlimit", action="store", type=int,
                         help="Limit the number of open PR to use.")
 
+    # parse the arguments value
     args = parser.parse_args()
+
     repo = args.repo
     opr = args.opr
     simthres = args.simthres
@@ -381,5 +391,6 @@ if __name__ == "__main__":
         print("Closed PR Limit: None (Using all PR available)")
     print("########################################")
 
+    # Get geviewer recommendation for the arguments provided
     get_reviewer_recommendation(
         repo, ACCESS_TOKEN, open_pr_id=opr, similarity_threshold=simthres, limit_pr=prlimit)

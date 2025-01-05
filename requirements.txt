@@ -1,6 +1,6 @@
 ﻿gensim==3.8.2
 networkx==2.3
-nltk==3.4.5
+nltk==3.9
 PyGithub==1.46
 scikit-learn==0.21.3
 more-itertools==7.2.0

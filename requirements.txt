@@ -2,6 +2,6 @@
 networkx==2.3
 nltk==3.9
 PyGithub==1.46
-scikit-learn==0.21.3
+scikit-learn==1.5.0
 more-itertools==7.2.0
 numpy==1.22.0
